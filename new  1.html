@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head><title>HTML Web</title>
+	<link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
+
+        <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+
+
+<script type="text/javascript">
+
+function htmlit()
+{
+	var str=document.getElementById("code").value;
+	var output=document.getElementById("htmlout");
+	var newHTML = "<span style='color:#ffffff'>ifti </span>";	
+	output.srcdoc=str;
+}
+</script>
+</head>
+
+<body>
+ <div lang="en">
+            <div id="header" class="container">
+                <div class="row">
+                    <div class="twelvecol last">
+                        <div class="pull-right">
+                            <ul class="nav">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/html/">HTML</a></li>
+                                <li><a href="/perl">Perl</a></li>
+				<li><a href="/php">PHP</a></li>
+                                <li><a href="/python/">python</a></li>
+                            </ul>
+                    </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+                <div id="content" class="row">
+                    <div class="social twelvecol last">
+
+<h2>HTML Web</h2>
+<form>
+<table>
+<tr>
+	<td>Source Code:
+	<button onclick="htmlit()" type="button">Run</button></td>
+	<td colspan='2'>Output:</td>
+</tr>
+
+
+
+<tr>
+<td width='50%'>
+<textarea class="perl" id="code" rows="24" cols="80">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
